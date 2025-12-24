@@ -1,0 +1,244 @@
+\documentclass{article}
+%would be nice to have
+%\usepackage{PTSansCaption} 
+%\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
+%\usepackage[T1]{fontenc}
+
+\usepackage{hyperref}
+
+%\usepackage{url}
+\usepackage{html}
+\usepackage{makeidx}
+\usepackage{color}
+%\usepackage{fullpage}
+%\pagestyle{headings}
+\usepackage{amsmath}
+%\usepackage{comment}
+\makeindex
+\begin{document}
+\HTMLset{TITLE}{book homepage: Digital Logic Design by Guy Even and Moti Medina}
+
+\title{Digital Logic Design : a rigorous approach}
+
+\author{
+  \htmladdnormallink{Guy Even}{http://hyde.eng.tau.ac.il/}
+%
+and
+%
+\htmladdnormallink{Moti Medina}{http://www.eng.tau.ac.il/~medinamo/} }
+
+\maketitle
+
+\section{Download Our Book}
+A pdf version of the
+  \htmladdnormallink{book}{master.pdf}.  This is the authors version
+  of the book.  The book is available from
+  \htmladdnormallink{Cambridge University
+    Press}{http://www.cambridge.org}.  The reader may take one copy
+  only for personal use.  Unauthorized distribution is not allowed.
+
+
+
+  \section{Recorded Talks}
+  Visit my Youtube Channel
+  \htmladdnormallink{YouTube Digital Logic Design Channel}{https://www.youtube.com/playlist?list=PLpa_2P2BIoHCMZnL51InGI0lkU1bC-eGs}  with recorded talks.
+\section{Lecture Slides}
+Please contact us if you want the source files of the slides.
+% \subsection{Lecture slides}
+\begin{enumerate}
+  \item \htmladdnormallink{Chapter 1: Sets and Functions}{./Slides/sets-functions.pdf}.
+
+  \item \htmladdnormallink{Chapter 2: Induction and Recursion}{./Slides/induction-recursion.pdf}.
+
+  \item \htmladdnormallink{Chapter 3: Sequences and Series}{./Slides/sequences-series.pdf}.
+%See also slides on the \htmladdnormallink{pigeonhole principle}{./Slides/pigeonhole.pdf}.
+
+  \item \htmladdnormallink{Chapter 4: Directed Graphs}{./Slides/directed-graphs.pdf}.
+
+ \item \htmladdnormallink{Chapter 5: Binary Representation}{./Slides/binary-representation.pdf}.
+
+  \item \htmladdnormallink{Chapter 6: Propositional Logic}{./Slides/propositional-logic.pdf}.
+
+  \item \htmladdnormallink{Chapter 7: Asymptotics}{./Slides/asymptotics.pdf}.
+
+  \item \htmladdnormallink{Chapter 9: Representation of Boolean Functions by Formulas}{./Slides/representation.pdf}.
+
+  \item \htmladdnormallink{Chapter 10: The Digital Abstraction}{./Slides/digital-abstraction.pdf}.
+
+  \item \htmladdnormallink{Chapter 11: Foundations of combinational circuits}{./Slides/comb-sl.pdf}.
+
+  \item \htmladdnormallink{Chapter 12: Trees}{./Slides/tree.pdf}.
+
+  \item \htmladdnormallink{Chapter 13: Decoders and Encoders}{./Slides/decoder.pdf}.
+
+  \item \htmladdnormallink{Chapter 14: Selectors}{./Slides/selectors.pdf}.
+
+  \item \htmladdnormallink{Chapter 14: Shifters}{./Slides/shifters.pdf}.
+
+  \item \htmladdnormallink{Chapter 15: Addition}{./Slides/adder.pdf}.
+
+  \item \htmladdnormallink{Chapter 16: Signed Addition}{./Slides/sl-signed-addition.pdf}.
+
+  \item \htmladdnormallink{Chapter 17: Flip-Flops}{./Slides/flip-flop.pdf}.
+
+  \item \htmladdnormallink{Chapter 18: Memory Modules}{./Slides/sl-18-memory-modules.pdf}.
+
+  \item \htmladdnormallink{Chapter 19: Foundations of Synchronous Circuits}{./Slides/sl-sync.pdf}.
+
+  \item \htmladdnormallink{Chapter 20: Synchronous Modules}{./Slides/sl-sync-modules.pdf}.
+
+  \item \htmladdnormallink{Chapter 21: The ISA of a Simplified DLX}{./Slides/sl-DLX-ISA.pdf}.
+
+  \item \htmladdnormallink{Chapter 22: A Simplified DLX: Implementation}{./Slides/sl-DLX_imp.pdf}.
+\end{enumerate}
+\section{Annotated Lecture Slides}
+These are the annotated lecture slides that I use in my
+\htmladdnormallink{YouTube channel}{https://www.youtube.com/playlist?list=PLpa_2P2BIoHCMZnL51InGI0lkU1bC-eGs&pbjreload=10}
+(with handwritten proofs, etc.).
+
+\begin{enumerate}
+  % started recording only from last part of chapter 2
+  % \item \htmladdnormallink{Chapter 1: Sets and Functions}{./Slides/sets-functions.pdf}.
+
+  \item \htmladdnormallink{Chapter 2: Induction and Recursion}{./Annotated-Slides/ind-rec-end-chapter-2.pdf} (only the part on comparing cardinalities)
+
+  \item \htmladdnormallink{Chapter 3: Sequences and Series}{./Annotated-Slides/Sequences-and-series-proofs.pdf}
+
+  \item Chapter 4: Directed Graphs.
+    \begin{enumerate}
+    \item \htmladdnormallink{topological sort}{./Annotated-Slides/directed-graphs-proofs.pdf}
+    \item \htmladdnormallink{longest paths in DAGs}{./Annotated-Slides/longest-paths-proofs.pdf}
+    \item \htmladdnormallink{rooted trees}{./Annotated-Slides/rooted-trees-proofs.pdf}
+    \end{enumerate}
+
+ \item \htmladdnormallink{Chapter 5: Binary Representation}{./Annotated-Slides/binary-representation-proofs.pdf}
+
+ \item Chapter 6: Propositional Logic
+   \begin{enumerate}
+   \item  \htmladdnormallink{Boolean formulas}{./Annotated-Slides/propositional-logic-1-17.pdf}
+   \item  \htmladdnormallink{syntax and semantics}{./Annotated-Slides/propositional-logic-19-35.pdf}
+   \item  \htmladdnormallink{complete sets of connectives}{./Annotated-Slides/propositional-logic-36-50.pdf}
+   \item \htmladdnormallink{de Morgan Duality and negation normal
+       form}{./Annotated-Slides/propositional-logic-50-57.pdf}
+   \end{enumerate}
+
+ \item Chapter 7: Asymptotics
+   \begin{enumerate}
+   \item \htmladdnormallink{Big-O,
+       Big-Omega}{./Annotated-Slides/asymptotics-1-14.pdf}
+   \item \htmladdnormallink{Recurrence equations}{./Annotated-Slides/asymptotics-20-32.pdf}
+ \end{enumerate}
+ \item Chapter 9: \htmladdnormallink{Representation of Boolean Functions}{./Annotated-Slides/representation.pdf}
+ \item Chapter 10: \htmladdnormallink{The Digital Abstraction}{./Annotated-Slides/digital-abstraction.pdf}
+ \item Chapter 11: \htmladdnormallink{Foundations of Combinational
+     Circuits}{./Annotated-Slides/comb-sl.pdf}
+ \item Chapter 12: \htmladdnormallink{Trees}{./Annotated-Slides/tree.pdf}
+ \item Chapter 13:
+   \htmladdnormallink{Decoders and Encoders}{./Annotated-Slides/decoder.pdf}
+ \item Chapter 14:
+   \htmladdnormallink{Shifters}{./Annotated-Slides/shifters.pdf}
+ \end{enumerate}
+
+ % \item \htmladdnormallink{Chapter 9: Representation of Boolean Functions by Formulas}{./Slides/representation.pdf}.
+
+%  \item \htmladdnormallink{Chapter 10: The Digital Abstraction}{./Slides/digital-abstraction.pdf}.
+
+%  \item \htmladdnormallink{Chapter 11: Foundations of combinational circuits}{./Slides/comb-sl.pdf}.
+
+%  \item \htmladdnormallink{Chapter 12: Trees}{./Slides/tree.pdf}.
+
+%  \item \htmladdnormallink{Chapter 13: Decoders and Encoders}{./Slides/decoder.pdf}.
+
+%  \item \htmladdnormallink{Chapter 14: Selectors}{./Slides/selectors.pdf}.
+
+%  \item \htmladdnormallink{Chapter 14: Shifters}{./Slides/shifters.pdf}.
+
+%  \item \htmladdnormallink{Chapter 15: Addition}{./Slides/adder.pdf}.
+
+%  \item \htmladdnormallink{Chapter 16: Signed Addition}{./Slides/sl-signed-addition.pdf}.
+
+%  \item \htmladdnormallink{Chapter 17: Flip-Flops}{./Slides/flip-flop.pdf}.
+
+%  \item \htmladdnormallink{Chapter 18: Memory Modules}{./Slides/sl-18-memory-modules.pdf}.
+
+%  \item \htmladdnormallink{Chapter 19: Foundations of Synchronous Circuits}{./Slides/sl-sync.pdf}.
+
+%  \item \htmladdnormallink{Chapter 20: Synchronous Modules}{./Slides/sl-sync-modules.pdf}.
+
+%  \item \htmladdnormallink{Chapter 21: The ISA of a Simplified DLX}{./Slides/sl-DLX-ISA.pdf}.
+
+%  \item \htmladdnormallink{Chapter 22: A Simplified DLX: Implementation}{./Slides/sl-DLX_imp.pdf}.
+\end{enumerate}
+
+\begin{comment}
+\subsection{Recitation Slides}
+\begin{enumerate}
+  \item \htmladdnormallink{Chapters 1 \& 2: Sets and Functions, Induction}{./RSlides/Recitation1.pdf}.
+
+  \item \htmladdnormallink{Chapter 2: Induction and Recursion}{./RSlides/Recitation2.pdf}.
+
+
+  \item \htmladdnormallink{Chapter 4 \& 5: Directed Graphs \& Binary Representation}{./RSlides/Recitation3.pdf}.
+
+
+  \item \htmladdnormallink{Chapter 6: Propositional Logic}{./RSlides/Recitation4.pdf}.
+
+  \item \htmladdnormallink{Chapter 6\& 7 : Propositional Logic \& Asymptotics}{./RSlides/Recitation5.pdf}.
+
+  \item \htmladdnormallink{Chapter 9 \& 11: Representation of Boolean Functions by Formulas \& Foundations of combinational circuits }{./RSlides/Recitation6.pdf}. % fix the definition of a combinational circuit.
+
+  \item \htmladdnormallink{Chapter 11: Foundations of combinational circuits}{./RSlides/Recitation7.pdf}. % remove the quiz part
+
+  \item \htmladdnormallink{Chapter 12,13 \& 14: The Cone of a Boolean function \& Selectors}{./RSlides/Recitation9.pdf}.
+
+
+  \item \htmladdnormallink{Chapter 14 \& 15: Shifters \& Addition}{./RSlides/Recitation10.pdf}. %remove last slide
+
+  \item \htmladdnormallink{Chapter 19 \& 20: Foundations of Synchronous Circuits \& Synchronous Modules}{./RSlides/Recitation12.pdf}.
+
+  \item \htmladdnormallink{Chapter 21: The ISA of a Simplified DLX}{./RSlides/Recitation13.pdf}.
+
+  \item \htmladdnormallink{Chapter 22: A Simplified DLX: Implementation}{./RSlides/Recitation14.pdf}. % English!
+\end{enumerate}
+\end{comment}
+
+\section{Simulators and Examples}
+\subsection{Logisim Simulator}
+In the following  \htmladdnormallink{link}{http://ozark.hendrix.edu/~burch/logisim/} you will find a graphical tool for designing and simulating combinational and synchronous circuits.
+
+\noindent
+Some examples of implementation using Logisim (download the file and open it using Logisim):
+\begin{enumerate}
+  \item \htmladdnormallink{The 3-bit carry function}{./Code/3bitcarry.circ}. This function appears on Chapter~1,~15, etc.
+  \item \htmladdnormallink{The AND(4) function}{./Code/AND4.circ}. This function appears on Chapter~12,~13, etc.
+  \item \htmladdnormallink{The DECODER(3) function}{./Code/DEC_1.circ}. This function appears on Chapter~13, etc.
+  \end{enumerate}
+  
+\subsection{DLX simulator}
+In the following  \htmladdnormallink{link}{./resa8.zip} you will find a simulator of
+The Simplified DLX that appears on Chapters~21 and~22.
+
+\noindent
+This simulator can be used to write programs in the DLX's machine language, and to execute and debug these programs.
+
+\noindent
+For example: \htmladdnormallink{Example 21.9}{./Code/example219.s}.
+\section{Feedback}
+Fill the
+  \htmladdnormallink{form}{https://docs.google.com/spreadsheet/embeddedform?formkey=dExuMThZUXdxdS1IYTJfSmsxNEh3RlE6MQ}
+  if you found any mistakes or have a remark. Thanks!
+  \begin{rawhtml}
+      <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dExuMThZUXdxdS1IYTJfSmsxNEh3RlE6MQ" width="760" height="638" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  \end{rawhtml}
+
+
+\section{Guest Book}
+Leave us a message in the
+  \htmladdnormallink{guest book}{https://docs.google.com/spreadsheet/viewform?formkey=dGZORVpCbW5qZ3pOWmNkR3VtV3J3S1E6MQ}. Thanks!
+
+  \begin{rawhtml}
+    <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dGZORVpCbW5qZ3pOWmNkR3VtV3J3S1E6MQ" width="760" height="623" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  \end{rawhtml}
+
+\end{document}
+

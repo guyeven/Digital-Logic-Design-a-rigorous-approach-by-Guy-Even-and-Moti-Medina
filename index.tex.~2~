@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage{url}
+\usepackage{html}
+\usepackage{makeidx}
+\usepackage{color}
+\usepackage{fullpage}
+%\pagestyle{headings}
+\usepackage{amsmath}
+\usepackage{comment}
+\makeindex
+\begin{document}
+\HTMLset{TITLE}{book homepage: Logic Design by Guy Even and Moti Medina}
+
+\title{ book homepage: Logic Design by 
+%
+  \htmladdnormallink{Guy Even}{http://www.eng.tau.ac.il/~guy/index.html} 
+%
+and 
+%
+\htmladdnormallink{Moti Medina}{http://www.eng.tau.ac.il/~medinamo/} }
+\maketitle
+
+
+\end{document}
+ 

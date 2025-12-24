@@ -1,0 +1,252 @@
+\documentclass{article}
+\usepackage{url}
+\usepackage{html}
+\usepackage{makeidx}
+\usepackage{color}
+\usepackage{fullpage}
+%\pagestyle{headings}
+\usepackage{amsmath}
+\usepackage{comment}
+\makeindex
+\begin{document}
+\HTMLset{TITLE}{Course homepage: Network Algorithms Spring 2011}
+
+\title{
+Course homepage: 0515.4009 \\Network Algorithms \\ Spring 2011 \\ 
+\htmladdnormallink{Prof. Guy Even }{http://www.eng.tau.ac.il/~guy/index.html}
+}
+\maketitle
+
+\noindent
+\textbf{Office Hours:}
+Wednesdays 12-13, Room 202, Computer Engineering and Software Engineering
+Building (please coordinate in advance)
+
+\noindent
+\textbf{Email Group} \htmladdnormallink{Network Algorithms
+  Sp11}{http://groups.google.com/group/network-algorithms-sp11?hl=en}
+- please make sure you joint this group
+
+%\textbf{Announcements: 1. extra class on Sunday 14 Jan at 10AM. 2. exam on Monday 15 Jan.}
+
+\section{Course topics}
+The course will cover most of the following topics:
+\begin{itemize}
+\item Maximum Flow: The Goldberg-Tarjan Push-Relabel max-flow algorithm
+\item Minimum cuts: Gomory-Hu tree cuts, global minimum cuts
+\item Min-Cost Flow: cancellation of negative cycle, capacity scaling,
+  min cycle mean, overview of Goldberg-Tarjan algorithm
+\item Matching: Edmonds algorithm for the unweighted case. 
+\item Coloring: greedy vertex coloring and edge coloring.
+\item Connectivity: Menger's Theorem.
+\item Linear Programming: Farkas' Lemma, duality, complementary
+  slackness, Simplex algorithm.
+\item If time permits, some of these topics: PTAS for fractional
+  covering/packing, online covering/packing, separator theorem for
+  planar graphs.
+
+\end{itemize}
+\section{Course requirements}
+This is an advanced course. What does it mean?
+\begin{itemize}
+\item Not a mass audience course: ``teacher lectures and students hope
+  for an easy exam''... I am here to teach, and you are here to improve
+  your knowledge and skills in algorithm design and analysis. 
+\item Style of presentation is less formal, a lot of intuition (aka
+  hand-waiving), but students must be able to fill the details.
+\item Small class - everybody gets a chance to participate. Students
+  are expected to contribute to the course and should not restrict their
+  participation to passive attendance.
+\item No assistant - I will be your teaching assistant.
+\item Homework questions are challenging - they do not repeat material
+  taught in class but require introduction of new ideas. You are
+  expected to set aside a few hours each week for thinking about the
+  homework.
+\item Homework will be solved on the board by the students. You are
+  requested to hand solved homework - just to make sure you have a
+  strict deadline for trying to deal with the homework. 
+\end{itemize}
+
+\subsection{Grading Policy}
+\begin{description}
+\item To pass the course, you must pass the final exam!
+\item[Homework] Students must hand in solutions for
+  75\% of the homework questions:
+\[
+\frac{\text{number of submitted answers}}{\text{sum of questions asked over the semester}} \geq \frac 34.
+\]
+Handed homework will not be graded. Instead, exercises will solved by
+the students during class recitations. Each presented solution that is
+correct will grant at least $1$ bonus point to the final grade The
+bonus is based be based on the quality of the presented solutions, the
+number of presented solutions, and difficulty of question. The
+homework grade will not decrease your final grade.
+\item[Final Exam] A regular exam will be given.
+\end{description}
+
+  \section{Slides}
+
+  \begin{enumerate}
+  \item \htmladdnormallink{Introduction to Linear Programming from the
+      perspective of Set Cover}{L1-LP-set-cover.pdf}
+
+    
+%    \item \htmladdnormallink{Matrix Form of Linear Programming,
+%        Covering \& Packing, Examples (max flow,
+%        min-cut)}{L2-LP-cover-pack-flow-cut.pdf}
+
+    \item \htmladdnormallink{Introduction to network flow,
+        Ford-Fulkerson}{L3-max-flow.pdf}.
+
+    \item \htmladdnormallink{Decomposition of standard flow in to flow paths (path packing)}{path-packing.pdf}.
+
+    \item \htmladdnormallink{Review of flow augmenting algorithms,
+        matching and vertex cover in bipartite
+        graphs}{L4-max-flow-algs-applications.pdf}.
+
+    \item \htmladdnormallink{Push-Relabel max flow algorithm: preliminaries}{L5-push-relabel.pdf}.
+
+    \item \htmladdnormallink{Push-Relabel max flow algorithm: generic
+        description and analysis}{L5-push-relabel2.pdf}.
+
+
+  \item \htmladdnormallink{Push-Relabel max flow algorithm:
+        implementation in $O(n^3)$}{L6-push-relabel-n-cube-time.pdf}
+
+
+    \item \htmladdnormallink{Max flow with lower
+        bounds}{L7-flow-with-lower-bounds.pdf}
+
+
+    \item \htmladdnormallink{Proof of Dilworth Theorem}{Dilworth-theorem.pdf}
+
+\item \htmladdnormallink{Minimum cycle mean algorithm}{L9-MCM.pdf}
+\htmladdnormallink{PPTX with narrations (zipped): Minimum cycle mean algorithm}
+{L9-MCM.zip} 
+
+\item \htmladdnormallink{Min cost flow: definitions, Klein's
+        algorithm, Scaling algorithm}{L8-min-cost-flow.pdf}
+
+\item \htmladdnormallink{Global min-cut algorithms in undirected
+        graphs}{L10-global-min-cut.pdf}
+ 
+
+    \item \htmladdnormallink{Edge coloring (Vizing)
+      }{L11-edge-coloring.pdf}
+
+    \item \htmladdnormallink{Maximum matching algorithm in general
+        graphs}{L12-matching.pdf}
+
+    \item \htmladdnormallink{Introduction to linear
+        programming}{L13-intro-LP.pdf}
+
+    \item \htmladdnormallink{Fourier Motzking elimination}{
+        L14-LP-Fourier-Motzkin.pdf}
+ 
+    \item \htmladdnormallink{Farkas Lemma and Strong Duality}{
+        L15-Farkas-Strong-Duality.pdf}
+\begin{comment}
+
+
+    \item \htmladdnormallink{Duality and complementary
+        slackness}{L16-Duality-Comp-Slackness.pdf}
+
+    \item \htmladdnormallink{Dual opt to primal opt (Simplex in a
+        nutshell) and Arbitrage}{L17-Popt-to-Dopt-Arbitrage.pdf}
+
+    \item \htmladdnormallink{Online routing}{L18-ONLINE-ROUTING.pdf}
+   \end{comment}
+  \end{enumerate}
+
+  \section{Homework}
+
+    \begin{enumerate}
+\item First 4 questions in lecture \#1.
+\item \htmladdnormallink{Homework
+    \#2}{HW-FF-Sleator-2.pdf} Ford-Fulkerson infinite run + Equivalence
+    of flow definitions.
+\item \htmladdnormallink{Homework
+    \#3}{HW-push-relabel.pdf} Generic push-relabel maximum flow algorithm.
+\item \htmladdnormallink{Homework
+        \#4}{HW3-dilworth-koenig-hall.pdf} (Dilworth, Koenig, Hall)
+\item \htmladdnormallink{Homework
+        \#5}{HW5-MCM.pdf} (Min cycle mean)
+
+\item \htmladdnormallink{Homework \#6}{HW5-flow-applications.pdf}
+      (Menger, Hoffman, transportation, max-flow bit scaling algorithm)
+\item \htmladdnormallink{Homework
+        \#7}{HW6-min-cost-applications.pdf} (Applications of min cost
+      flow)
+\item Homework \#8 on edge coloring - see lecture slides
+
+\item \htmladdnormallink{Homework \#9 -matching}{HW9-matching.pdf}
+
+\item \htmladdnormallink{Homework \#10 -Linear programming (Caratheodory,Birkoff)}{HW10-Caratheodory-Bikhoff.pdf}
+
+\begin{comment}
+    \item \htmladdnormallink{Homework \#2}{HW2-FF-duality.pdf}
+      (Ford-Fulkerson counter example, vertex cover - matching
+      duality)
+
+
+    \item \htmladdnormallink{Homework \#4}{HW4-push-relabel.pdf}
+      (Goldberg Tarjan: push relabel algorithm)
+
+     \item \htmladdnormallink{Homework \#7-part 1}{HW7-min-cuts.pdf}
+      and \htmladdnormallink{Homework \#7-part 2}{HW7-min-cut.pdf}
+      (Global min cuts)
+
+
+    \item \htmladdnormallink{Homework \#11 - duality}{HW11.pdf}
+\end{comment}
+    \end{enumerate}
+
+\section{Books and other references}
+\begin{enumerate}
+\item Previous year's \htmladdnormallink{website}{../CO-09}.
+\item \htmladdnormallink{Combinatorial Optimization by Cook,
+    Cunningham, Pulleyblank, and
+    Schrijver.}{http://132.66.58.20/ALEPH/ENG/ATA/AAS/AAS/FIND-ACC/2114804}
+  \htmladdnormallink{Book's web
+    site}{http://www.math.uwaterloo.ca/~whcunnin/bookpage.html}.
+\item Combinatorial Optimization (Lecture Notes) by Andrew V. Goldberg
+  \htmladdnormallink{postscript
+    file}{Goldberg-combinatorial-optimization-lecture-notes.ps}
+\item Andrew V. Goldberg and Robert E. Tarjan, \htmladdnormallink{A new
+    approach to the maximum-flow problem}{http://portal.acm.org/citation.cfm?doid=48014.61051},
+  Journal of the ACM (JACM), Volume 35 , Issue 4 (October 1988). (You
+  can download the paper from TAU computers)
+\item Andrew V. Goldberg and Robert E. Tarjan,
+  \htmladdnormallink{Finding minimum-cost circulations by canceling
+    negative cycles}{http://doi.acm.org/10.1145/76359.76368} Journal
+  of the ACM, Volume 36 , Issue 4 (October 1989).
+\item \htmladdnormallink{Michel
+    Goemans}{http://www-math.mit.edu/~goemans} has a homepage for an
+  \htmladdnormallink{Advanced Algorithms
+    Course}{http://www-math.mit.edu/~goemans/18.415/18415.html}. In
+  that homepage, you can find links to various lecture notes. In
+  particular, I will be using the \htmladdnormallink{Network
+    Flow}{ftp://theory.lcs.mit.edu/pub/classes/18.415/notes-flow.ps}
+  chapter.
+\item \htmladdnormallink{Network flows : theory, algorithms, and
+    applications / by Ravindra K. Ahuja, Thomas L. Magnanti, and James
+    B.
+    Orlin}{http://132.66.58.20/ALEPH/ENG/ATA/AAS/AAS/FIND-ACC/2258454}.
+\item \htmladdnormallink{Introduction to linear optimization / by
+    Dimitris Bertsimas, John N.
+    Tsitsiklis}{http://132.66.58.20/ALEPH/ENG/ATA/AAS/AAS/FIND-ACC/2264522}.
+\item \htmladdnormallink{Combinatorial optimization : algorithms and
+    complexity / by Christos H. Papadimitriou, Kenneth
+    Steiglitz}{http://132.66.58.20/ALEPH/ENG/ATA/AAS/AAS/FULL/1480786?}
+\item Scanned version of \htmladdnormallink{Graph
+    Algorithms}{http://www.cs.technion.ac.il/~algs/EvenBook/evenbook.html} by
+  Shimon Even.
+\item Neal Young, \htmladdnormallink{ Sequential and parallel
+    algorithms for mixed packing and covering}
+  {http://www.cs.ucr.edu/~neal/home/publications.html} (contains copy
+  of paper and slides).
+\item Lecture Notes \htmladdnormallink{on Optimization and Algorithmic Paradigms}{http://cs.stanford.edu/people/trevisan/cs261/}  by Luca Trevisan  (see also  \htmladdnormallink{blog}{http://en.wordpress.com/tag/cs261/}).
+\end{enumerate}
+
+\end{document}
+ 
